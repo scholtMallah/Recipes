@@ -4,7 +4,6 @@ using System.Text;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Recipes.Configuration;
-using Recipes.Dtos;
 using Recipes.Dtos.Responses;
 using Recipes.Interfaces;
 

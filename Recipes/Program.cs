@@ -110,7 +110,7 @@ var app = builder.Build();
 
 app.UseMiddleware<ErrorHandlingMiddleware>();
 app.UseCors("LocalhostOnly");
-app.UseSwagger(); // omdat ik geen UI heb gemaakt (was niet gevraagd, ik heb het nu altijd aan... meestal moet het alleen maar bij development.)
+app.UseSwagger(); // omdat ik geen UI heb gemaakt (was geen onderdeel van de assesment, staat swagger altijd aan. meestal moet het alleen maar bij development aan staan.)
 app.UseSwaggerUI();
 app.UseAuthentication();
 app.UseAuthorization();

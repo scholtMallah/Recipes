@@ -80,8 +80,8 @@ public class RecipesController : ControllerBase
     [HttpPut]
     public async Task<IActionResult> Update([FromBody] CreateOrPutRecipeRequest request)
     {
-        /* meestal wil je een put nog steed binden met een unique key maar de assesment had specifiek gevraagd voor
-        home route. dus ik heb het zo gelaten. De rest van de code werkt met het idee dat het origineel /{name} is.
+        /* meestal wil je een put nog steeds binden met een unique key maar de assesment had specifiek gevraagd voor
+        home route. dus ik heb het zo gelaten. Na dit punt in de code heb ik gewerkt met het idee dat het origineel /{name} is.
         */
         var model = _mapper.Map<RecipeModel>(request);
         await _service.UpdateRecipe(model.Name, model);
