@@ -1,0 +1,30 @@
+# Build results
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Docker
+*.pid
+*.seed
+Dockerfile.*
+
+# ASP.NET logs
+*.log
+logs/
+
+# Configuration
+appsettings.*.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Secrets (optional)
+secrets.json
+.env
+
